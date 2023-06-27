@@ -1,11 +1,8 @@
 #include "main.h"
 /**
- *
- * @buff_ind:  add next char, represents the length.
- *
- * @buffer: Array of chars
- *
  * print_buffer - show The details of the buffer if it exist
+ * @buff_ind:  add next char, represents the length.
+ * @buffer: Array of chars
  */
 void print_buffer( char buffer[], int *buff_ind )
 {
@@ -20,9 +17,9 @@ void print_buffer( char buffer[], int *buff_ind )
 void print_buffer( char buffer[], int *buff_ind );
 
 /**
+ * _printf - Show
+ * @format: the format
  * Return: Print the char
- * @format: format
- * _printf - Show the function
  */
 int _printf( const char *format, ... )
 {
